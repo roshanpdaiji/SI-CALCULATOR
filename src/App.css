@@ -1,0 +1,15 @@
+.box {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8); /* Thick box shadow */
+}
+
+.square-box {
+  width: 100px;           /* Set the width of the square */
+  height: 100px;          /* Set the height to match width */
+  background-color: rgb(31, 119, 144); /* Yellow background color */
+  display: flex;          /* Use flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  font-size: 3rem;         /* Adjust font size if needed */
+  font-weight: bold;       /* Make the text bold */
+  border-radius: 10px;     /* Optional: Add slight rounding to the corners */
+}
